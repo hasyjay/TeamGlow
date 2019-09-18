@@ -15,11 +15,11 @@ body{
     grid-template-columns: 4fr 3fr;
     border-radius: 24px;
 }
-.login-page section h3 {
+.login-page div h3 {
     color: #F7575F;
     font-size: 2.0em;
 }
-.login-page section img {
+.login-page div img {
     width: 100%;
     height:auto;
 }
