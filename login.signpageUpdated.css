@@ -1,0 +1,139 @@
+body{
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login-page{
+    width: 80%;
+    min-width: 1000px;
+    height: 80vh;
+    padding: 20px;
+    margin: 3vh auto;
+    margin-bottom: 0;
+    display: grid;
+    border: 1px solid green;
+    grid-template-columns: 4fr 3fr;
+    border-radius: 24px;
+}
+.login-page section h3 {
+    color: #F7575F;
+    font-size: 2.0em;
+}
+.login-page section img {
+    width: 100%;
+    height:auto;
+}
+
+.welcome {
+    color: #F7575F;
+    font-size: 2.5em;
+    margin-bottom: 0;
+    font-weight: 200;
+}
+.txt {
+    opacity: .6;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.form{
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 30px;
+    text-align: center;
+}
+
+.form input{
+  width: 92%;
+  padding: 15px;
+  padding-left: 40px;
+  outline: none;
+  font-size: 1.3em;
+  font-weight: lighter;
+  opacity: .8;
+  border: 1px solid grey;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.form button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #F7575F;
+    width: 110%;
+    border: 0;
+    padding: 15px;
+    margin: 0 auto;
+    display: block;
+    color: #ffffff;
+    border: 1px solid #F7575F;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 24px;
+}
+.form button:hover,.form button:active{
+    background-color: white;
+    border: 1px solid #F7575F;
+    color: #F7575F;
+
+}
+.form .message{
+    margin: 15px 0 0;
+    color: black;
+    font-size: 1.1em;
+}
+
+.form .message a{
+    color: red;
+    text-decoration: none;
+}
+.form .register-form{
+    display: none;
+}
+
+#rememberMe {
+    width: 100%;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    opacity: .7;
+}
+
+#rememberMe input {
+    width: auto;
+}
+
+#fp {
+    float: right;
+}
+
+#socialMedia {
+    width: 100%;
+}
+
+#socialMedia a {
+    font-size: 1.4em;
+    margin-right: 10px;
+    text-decoration: none;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 7px 9px;
+    box-shadow: 1px 1px 5px grey;
+}
+
+#socialMedia a:hover {
+    opacity: .6;
+}
+
+.fa-google {
+    color: red;
+}
+
+
+.fa-twitter {
+    color: rgb(26, 181, 241)
+}
+
