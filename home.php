@@ -37,5 +37,5 @@ session_start()
     </head>
     <body>
         <h1>Welcome <?php echo $_SESSION['username']; ?></h1>
-        <a href="login.signpageupdated.html">Click Here To Sign Out?</a>
+        <a href="teamglow_login_signuppage.html">Click Here To Sign Out?</a>
     </body>

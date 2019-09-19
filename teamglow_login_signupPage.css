@@ -50,7 +50,7 @@ body{
   padding: 15px;
   padding-left: 40px;
   outline: none;
-  font-size: 1.3em;
+  font-size: 1.2em;
   font-weight: lighter;
   opacity: .8;
   border: 1px solid grey;
@@ -105,35 +105,3 @@ body{
 #rememberMe input {
     width: auto;
 }
-
-#fp {
-    float: right;
-}
-
-#socialMedia {
-    width: 100%;
-}
-
-#socialMedia a {
-    font-size: 1.4em;
-    margin-right: 10px;
-    text-decoration: none;
-    border: 1px solid grey;
-    border-radius: 50%;
-    padding: 7px 9px;
-    box-shadow: 1px 1px 5px grey;
-}
-
-#socialMedia a:hover {
-    opacity: .6;
-}
-
-.fa-google {
-    color: red;
-}
-
-
-.fa-twitter {
-    color: rgb(26, 181, 241)
-}
-
